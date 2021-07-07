@@ -8,6 +8,13 @@ TBD ...
 
 # DbContext
 
+```csharp
+public class DevNcoreContext : DbContext
+{
+
+}
+```
+
 TBD ...
 
 # DbSet
