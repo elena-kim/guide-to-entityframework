@@ -11,7 +11,7 @@ TBD ...
 ```csharp
 public class DevNcoreContext : DbContext
 {
-
+    // easy!
 }
 ```
 
