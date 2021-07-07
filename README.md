@@ -15,6 +15,17 @@ public class DevNcoreContext : DbContext
 }
 ```
 
+```csharp
+
+public class DevNcoreContext : DbContext
+{
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=Test");
+    }
+}
+```
+
 TBD ...
 
 # DbSet
