@@ -28,7 +28,7 @@ With the Entity Framework, developers can work at a higher level of abstraction 
 ### Installation
 ✔️ Install Entity Framework Core &nbsp; [**`Microsort.EntityFrameworkCore`**](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore)
 
-✔️ Install EF Core DB Provider [**`Database Providers`**](https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli)
+✔️ Install EF Core DB Provider &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**`Database Providers`**](https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli)
 
 ### DbContext
 
