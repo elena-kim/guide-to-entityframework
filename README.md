@@ -1,6 +1,7 @@
 # the-easiest-entityframework
-
-TBD ...
+## Nuget Package
+- Microsort.EntityFrameworkCore
+- Microsort.EntityFrameworkCore.SqlServer
 
 # Overview
 
