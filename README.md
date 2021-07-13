@@ -30,8 +30,23 @@ With the Entity Framework, developers can work at a higher level of abstraction 
 
 ✔️ Install EF Core DB Provider &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**`Database Providers`**](https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli)
 
-### DbContext
+<br>
 
+### DbContext
+A **DbContext** instance represents a session with the database and can be used to query and save instances of your entities.  
+DbContext is a combination of the Unit Of Work and Repository patterns.
+
+DbContext in EF Core allows us to perform following tasks:
+
+1. Manage database connection  
+1. Configure model & relationship  
+1. Querying database  
+1. Saving data to the database  
+1. Configure change tracking  
+1. Caching  
+1. Transaction management  
+
+To use DbContext in our application, we need to create the class that derives from DbContext, also known as context class.
 ```csharp
 public class DevNcoreContext : DbContext
 {
@@ -39,6 +54,7 @@ public class DevNcoreContext : DbContext
 }
 ```
 
+The `OnConfiguring()` method allows us to select and configure the data source to be used with a context using `DbContextOptionsBuilder`.
 ```csharp
 
 public class DevNcoreContext : DbContext
@@ -50,7 +66,7 @@ public class DevNcoreContext : DbContext
 }
 ```
 
-TBD ...
+<br>
 
 ### DbSet
 
