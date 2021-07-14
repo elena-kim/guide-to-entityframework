@@ -15,6 +15,16 @@ You can always share information with us and we are looking forward to it.
 
 ***
 
+## Overview
+- [Entity Framework](#entity-framework)
+- [Entity Framework Core](#entity-framework-core)
+  - [Installation](#installation)
+  - [DbContext](#dbcontext)
+  - [DbSet](#dbset)
+  - [Linq](#linq)
+  - [Lambda](#lambda)
+<br>
+
 ## Entity Framework
 **Entity Framework** is an object-relational mapper (O/RM) that enables .NET developers to work with a database using .NET objects. It eliminates the need for most of the data-access code that developers usually need to write. 
 
@@ -69,8 +79,43 @@ public class DevNcoreContext : DbContext
 <br>
 
 ### DbSet
+The **DbSet\<TEntity\>** class represents a collection for a given entity within the model and is the gateway to database operations against an entity. DbSet\<TEntity\> classes are added as properties to the DbContext and are mapped by default to database tables that take the name of the DbSet\<TEntity\> property.
 
-TBD ...
+```csharp
+public class DevNcoreContext : DbContext
+{
+    public DbSet<User> Users { get; set; }
+    public DbSet<Friend> Friends { get; set; }
+    
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=Test");
+    }
+}
+
+public class User
+{
+    [Key]
+    public int Seq { get; set; }
+    public string Name { get; set; }
+    public DateTime Created { get; set; }
+    public DateTime Updated { get; set; }
+}
+
+public class Friend
+{
+    [Key]
+    public int Seq { get; set; }
+    public int UserSeq { get; set; }
+    public int FriendsSeq { get; set; }
+    public bool IsAccept { get; set; }
+    public DateTime Created { get; set; }
+    public DateTime Updated { get; set; }
+}
+```
+In the example above, two DbSet\<TEntity\> properties have been added to the DbContext class. The first represents a collection of User objects, which is mapped by convention to a database table named "Users", after the property name. The second DbSet property represents a collection of Friend objects, and is mapped to a table named "Friends".
+    
+<br>
 
 ### Linq
 
