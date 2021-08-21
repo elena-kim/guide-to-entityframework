@@ -121,6 +121,8 @@ In the example above, two DbSet\<TEntity\> properties have been added to the DbC
 
 TBD ...
 
+<br>
+
 ### Lambda
 
 TBD ...
