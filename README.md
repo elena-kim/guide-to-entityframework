@@ -100,18 +100,6 @@ In the example above, two DbSet\<TEntity\> properties have been added to the DbC
     
 <br>
 
-### Linq
-
-TBD ...
-
-<br>
-
-### Lambda
-
-TBD ...
-
-<br>
-
 ***
 
 ## Reference
