@@ -125,5 +125,5 @@ In the example above, two DbSet\<TEntity\> properties have been added to the DbC
 ***
 
 ## Reference
-:bookmark_tabs: [Entity Framework Tutorial](https://www.entityframeworktutorial.net/what-is-entityframework.aspx)   
-:bookmark_tabs: [Learn Entity Framework Core](https://www.learnentityframeworkcore.com/) 
+📑 [Entity Framework Tutorial](https://www.entityframeworktutorial.net/what-is-entityframework.aspx)   
+📑 [Learn Entity Framework Core](https://www.learnentityframeworkcore.com/) 
