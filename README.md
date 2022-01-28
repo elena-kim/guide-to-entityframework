@@ -1,4 +1,4 @@
-## The Easiest EntityFramework
+## Guide to EntityFramework
 
 이 리포지토리는 EntityFramework에 대해 기술한 리포지토리입니다. <br />
 
