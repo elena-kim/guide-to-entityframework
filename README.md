@@ -62,7 +62,7 @@ public class DevNcoreContext : DbContext
 <br>
 
 ### DbSet
-The **DbSet\<TEntity\>** class represents a collection for a given entity within the model and is the gateway to database operations against an entity. DbSet\<TEntity\> classes are added as properties to the DbContext and are mapped by default to database tables that take the name of the DbSet\<TEntity\> property.
+**DbSet\<TEntity\>** 클래스는 모델 내에서 지정된 엔티티에 대한 컬렉션을 나타내며, 엔티티에 대한 데이터베이스 작업의 관문입니다. DbSet\<TEntity\> 클래스는 DbContext에 프로퍼티로 추가되고 기본적으로 DbSet\<TEntity\> 프로퍼티의 이름을 사용하는 데이터베이스 테이블에 매핑됩니다.
 
 ```csharp
 public class DevNcoreContext : DbContext
@@ -96,7 +96,7 @@ public class Friend
     public DateTime Updated { get; set; }
 }
 ```
-In the example above, two DbSet\<TEntity\> properties have been added to the DbContext class. The first represents a collection of User objects, which is mapped by convention to a database table named "Users", after the property name. The second DbSet property represents a collection of Friend objects, and is mapped to a table named "Friends".
+위의 예에서는 두 개의 DbSet\<TEntity\> 프로퍼티가 DevNcoreContext 클래스에 추가되었습니다. 첫 번째는 User 객체의 컬렉션을 나타내며, "Users"라는 데이터베이스 테이블에 매핑됩니다. 두 번째 DbSet 프로퍼티는 Friend 객체의 컬렉션을 나타내며 "Friends"라는 테이블에 매핑됩니다.
     
 <br>
 
