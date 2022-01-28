@@ -11,16 +11,15 @@
 <br />
    
 ## Entity Framework
-**Entity Framework**는 .NET 개발자가 .NET 객체를 사용하여 데이터베이스로 작업할 수 있도록 하는 O/RM(객체 관계 매퍼)입니다. 개발자가 일반적으로 작성해야 하는 대부분의 데이터 액세스 코드가 필요하지 않습니다.
+**Entity Framework**는 .NET 개발자가 .NET 객체를 사용하여 데이터베이스로 작업할 수 있도록 하는 O/RM(개체 관계형 매퍼)입니다. 개발자가 일반적으로 작성해야 하는 대부분의 데이터 액세스 코드가 필요하지 않습니다.
 
 Entity Framework를 통해 개발자는 데이터를 처리할 때 더 높은 수준의 추상화를 수행할 수 있으며, 기존 애플리케이션에 비해 적은 코드로 데이터 지향 애플리케이션을 만들고 유지할 수 있습니다.
 
 <br>
 
 ## Entity Framework Core
-**EF Core** is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations. EF Core works with SQL Server, Azure SQL Database, SQLite, Azure Cosmos DB, MySQL, PostgreSQL, and other databases through a provider plugin API.
+**EF Core**는 .NET을 위한 최신 객체 데이터베이스 매퍼입니다. LINQ 쿼리, 변경 추적, 업데이트 및 스키마 마이그레이션을 지원합니다. EF Core는 공급자 플러그인 API를 통해 SQL Server, Azure SQL Database, SQLite, Azure Cosmos DB, MySQL, Postgre 및 기타 데이터베이스와 함께 작동합니다.
 
-### 설치
 ✔️ Entity Framework Core 설치 &nbsp; [**`Microsort.EntityFrameworkCore`**](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore)
 
 ✔️ EF Core DB Provider 설치 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**`Database Providers`**](https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli)
