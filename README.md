@@ -10,31 +10,20 @@
 
 <br />
    
-## Overview
-- [Entity Framework](#entity-framework)
-- [Entity Framework Core](#entity-framework-core)
-  - [Installation](#installation)
-  - [DbContext](#dbcontext)
-  - [DbSet](#dbset)
-  - [Linq](#linq)
-  - [Lambda](#lambda)
-
-<br>
-
 ## Entity Framework
-**Entity Framework** is an object-relational mapper (O/RM) that enables .NET developers to work with a database using .NET objects. It eliminates the need for most of the data-access code that developers usually need to write. 
+**Entity Framework**는 .NET 개발자가 .NET 객체를 사용하여 데이터베이스로 작업할 수 있도록 하는 O/RM(객체 관계 매퍼)입니다. 개발자가 일반적으로 작성해야 하는 대부분의 데이터 액세스 코드가 필요하지 않습니다.
 
-With the Entity Framework, developers can work at a higher level of abstraction when they deal with data, and can create and maintain data-oriented applications with less code compared with traditional applications.
+Entity Framework를 통해 개발자는 데이터를 처리할 때 더 높은 수준의 추상화를 수행할 수 있으며, 기존 애플리케이션에 비해 적은 코드로 데이터 지향 애플리케이션을 만들고 유지할 수 있습니다.
 
 <br>
 
 ## Entity Framework Core
 **EF Core** is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations. EF Core works with SQL Server, Azure SQL Database, SQLite, Azure Cosmos DB, MySQL, PostgreSQL, and other databases through a provider plugin API.
 
-### Installation
-✔️ Install Entity Framework Core &nbsp; [**`Microsort.EntityFrameworkCore`**](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore)
+### 설치
+✔️ Entity Framework Core 설치 &nbsp; [**`Microsort.EntityFrameworkCore`**](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore)
 
-✔️ Install EF Core DB Provider &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**`Database Providers`**](https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli)
+✔️ EF Core DB Provider 설치 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**`Database Providers`**](https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli)
 
 <br>
 
@@ -56,7 +45,7 @@ To use DbContext in our application, we need to create the class that derives fr
 ```csharp
 public class DevNcoreContext : DbContext
 {
-    // EF is very easy...!
+    // EF is very easy!
 }
 ```
 
