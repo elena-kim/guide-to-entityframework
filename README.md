@@ -27,20 +27,19 @@ Entity Framework를 통해 개발자는 데이터를 처리할 때 더 높은 �
 <br>
 
 ### DbContext
-A **DbContext** instance represents a session with the database and can be used to query and save instances of your entities.  
-DbContext is a combination of the Unit Of Work and Repository patterns.
+**DbContext** 인스턴스는 데이터베이스와의 세션을 나타내며, 쿼리문을 보내고 엔티티의 인스턴스를 저장하는 데 사용할 수 있습니다. DbContext는 작업 단위 및 Repository 패턴의 조합입니다.
 
-DbContext in EF Core allows us to perform following tasks:
+EF Core의 DbContext는 아래와 같은 일들을 수행합니다.
 
-1. Manage database connection  
-1. Configure model & relationship  
-1. Querying database  
-1. Saving data to the database  
-1. Configure change tracking  
-1. Caching  
-1. Transaction management  
+1. 데이터베이스 연결 관리  
+1. 모델 및 관계 구성  
+1. 데이터베이스 쿼리  
+1. 데이터베이스에 데이터 저장  
+1. 변경 추적 구성  
+1. 캐싱  
+1. 트랜잭션 관리  
 
-To use DbContext in our application, we need to create the class that derives from DbContext, also known as context class.
+DbContext를 애플리케이션에서 사용하기 위해서는 DbContext를 상속받은 클래스를 생성해야 합니다.
 ```csharp
 public class DevNcoreContext : DbContext
 {
@@ -48,7 +47,7 @@ public class DevNcoreContext : DbContext
 }
 ```
 
-The `OnConfiguring()` method allows us to select and configure the data source to be used with a context using `DbContextOptionsBuilder`.
+`OnConfiguring()` 메서드는  `DbContextOptionsBuilder`를 사용하여 데이터 소스를 선택하고 구성할 수 있게 합니다.
 ```csharp
 
 public class DevNcoreContext : DbContext
