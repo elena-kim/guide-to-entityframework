@@ -6,7 +6,7 @@
  
 | Star | License | Activity |
 |:----:|:-------:|:--------:|
-| <a href="https://github.com/devncore/the-easiest-entityframework/stargazers"><img src="https://img.shields.io/github/stars/devncore/the-easiest-entityframework" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/the-easiest-entityframework" alt="License"> | <a href="https://github.com/devncore/the-easiest-entityframework/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/the-easiest-entityframework" alt="Commits-per-month"></a> |
+| <a href="https://github.com/devncore/guide-to-entityframework/stargazers"><img src="https://img.shields.io/github/stars/devncore/guide-to-entityframework" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/guide-to-entityframework" alt="License"> | <a href="https://github.com/devncore/guide-to-entityframework/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/guide-to-entityframework" alt="Commits-per-month"></a> |
 
 <br />
    
