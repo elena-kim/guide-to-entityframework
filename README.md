@@ -1,15 +1,3 @@
-## Guide to EntityFramework
-
-이 리포지토리는 EntityFramework에 대해 기술한 리포지토리입니다. <br />
-
-<a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
- 
-| Star | License | Activity |
-|:----:|:-------:|:--------:|
-| <a href="https://github.com/devncore/guide-to-entityframework/stargazers"><img src="https://img.shields.io/github/stars/devncore/guide-to-entityframework" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/guide-to-entityframework" alt="License"> | <a href="https://github.com/devncore/guide-to-entityframework/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/guide-to-entityframework" alt="Commits-per-month"></a> |
-
-<br />
-   
 ## Entity Framework
 **Entity Framework**는 .NET 개발자가 .NET 객체를 사용하여 데이터베이스로 작업할 수 있도록 하는 O/RM(개체 관계형 매퍼)입니다. 개발자가 일반적으로 작성해야 하는 대부분의 데이터 액세스 코드가 필요하지 않습니다.
 
